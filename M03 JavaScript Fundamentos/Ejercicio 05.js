@@ -70,15 +70,15 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if (letra === "a" && letra.length === 1) {
-      console.log("Es vocal")
+      return "Es vocal"
    } else if (letra === "e" && letra.length === 1) {
-      console.log("Es vocal")
+      return "Es vocal"
    } else if (letra === "i" && letra.length === 1) {
-      console.log("Es vocal")
+      return "Es vocal"
    } else if (letra === "o" && letra.length === 1) {
-      console.log("Es vocal")
+      return "Es vocal"
    } else if (letra === "u" && letra.length === 1) {
-      console.log("Es vocal")
+      return "Es vocal"
    } else {
       return "Dato incorrecto"
    }
