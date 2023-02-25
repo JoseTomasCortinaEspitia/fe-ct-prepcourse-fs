@@ -10,6 +10,7 @@ function crearUsuario() {
    // El valor {{nombre}} debe ser el nombre definido para la instancia de la clase.
    // Retornar la clase.
    // Tu código:
+   
 }
 
 function agregarMetodoPrototype(Usuario) {
