@@ -5,6 +5,7 @@ function mayuscula(nombre) {
    // Debe devolver el mismo nombre, pero con la primera letra en mayúscula.
    // [Ejemplo]: "mario" ----> "Mario".
    // Tu código:
+   return 
 }
 
 function invocarCallback(cb) {
@@ -40,6 +41,10 @@ function map(array, cb) {
    // Tiene que guardar el resultado devuelto por el callback en cada elemento dentro de un nuevo arreglo.
    // Retorna el nuevo arreglo.
    // Tu código:
+   var nuevoArreglo = [];
+   nuevoArreglo = array.map((elemento)=> 
+      cb(elemento))
+   return nuevoArreglo;
 }
 
 function filter(arrayOfStrings) {
